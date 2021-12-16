@@ -21,10 +21,10 @@
                     <input type="checkbox" id="toggle">
                         <ul class="nav-container">
                             <li class="colmenu">
-                                <a class="nav-element text-white police-manga-gantz" href="/"><img src="/css/images/home-solid.svg" alt="">Accueil</a>
+                                <a class="nav-element text-white police-manga-gantz" href="./index.html"><img src="/css/images/home-solid.svg" alt="">Accueil</a>
                             </li>
                             <li class="colmenu">
-                                <a class="nav-element text-white police-manga-gantz" href="/contact"><img src="/css/images/users-solid.svg" alt="">Contact</a>
+                                <a class="nav-element text-white police-manga-gantz" href="./contact/index.html"><img src="/css/images/users-solid.svg" alt="">Contact</a>
                             </li>
                         </ul> 
                 </div>    
@@ -68,6 +68,9 @@
                 </div>
             </div>
         </div>
+        <center>
+            <a href="https://ran1projectfilrouge.ddns.net"><button class="btn btn-yr w-auto" type="button">cliquez-ici pour accéder la version web du fil rouge</button></a>
+        </center
     </main>
     <footer>
         <div class="container-footer">
