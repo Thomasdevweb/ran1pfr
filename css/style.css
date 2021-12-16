@@ -361,3 +361,6 @@ h2{
     text-decoration: none;
     color: white;
 }
+.w-auto{
+    width: auto;
+}
