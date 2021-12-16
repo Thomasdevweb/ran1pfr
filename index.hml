@@ -46,7 +46,7 @@
                         <h3>Kaio Gaming</h3>
                         <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere dolorem impedit cupiditate! Aperiam beatae dolorum laboriosam provident aut eveniet amet, quos, necessitatibus ullam saepe, distinctio eius quam nam adipisci obcaecati? -->
                         <p>Voir la page de présentation de l'association donc je fait parti</p>
-                        <a href="/page/kaiogaming"><button class="btn btn-yr ml-25pc" type="button">cliquez-ici</button></a>
+                        <a href="/page/kaiogaming/index.html"><button class="btn btn-yr ml-25pc" type="button">cliquez-ici</button></a>
                     </div>
                 </div>
                 <div class="colt">
@@ -56,7 +56,7 @@
                         <h3>My Perso Dev</h3>
                         <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere dolorem impedit cupiditate! Aperiam beatae dolorum laboriosam provident aut eveniet amet, quos, necessitatibus ullam saepe, distinctio eius quam nam adipisci obcaecati? -->
                         <p>Mon tout Premier site Web avec tout mes projets comment des sites en coure de développement</p>
-                        <a href="/page/mypersodev"><button class="btn btn-yr ml-25pc" type="button">cliquez-ici</button></a>
+                        <a href="/page/mypersodev/index.html"><button class="btn btn-yr ml-25pc" type="button">cliquez-ici</button></a>
                     </div>
                 </div>
                 <div class="colt">
