@@ -1,0 +1,15 @@
+.banier-kg{
+    width: 100%;
+    height: 500px;
+    background-image: url('https://ran1projectfilrouge.ddns.net/css/images/PXL_20211113_084141033.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+}
+.mt-20px{
+    margin-top: 20px;
+}
+.logokg{
+    margin-left: 46%;
+}

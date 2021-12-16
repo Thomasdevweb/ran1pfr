@@ -1,0 +1,363 @@
+/* @import url('https://db.onlinewebfonts.com/c/42f406b4b683ec8c5961bb6e6e198ec9?family=gantz+font'); */
+/* @import url('https://db.onlinewebfonts.com/c/6cb4254d224fa60f15c496c4720b5c9a?family=Ninja+Naruto');*/
+@import url('https://db.onlinewebfonts.com/c/c1f81144897fc5acffc67de8febd9690?family=Saiyan+Sans');
+
+@font-face {font-family: "Gantz font";
+  src: url("/css/fonts/gantzfont/@font-face/42f406b4b683ec8c5961bb6e6e198ec9.eot"); /* IE9*/
+  src: url("/css/fonts/gantzfont/@font-face/42f406b4b683ec8c5961bb6e6e198ec9.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("/css/fonts/gantzfont/@font-face/42f406b4b683ec8c5961bb6e6e198ec9.woff2") format("woff2"), /* chrome、firefox */
+  url("/css/fonts/gantzfont/@font-face/42f406b4b683ec8c5961bb6e6e198ec9.woff") format("woff"), /* chrome、firefox */
+  url("/css/fonts/gantzfont/@font-face/42f406b4b683ec8c5961bb6e6e198ec9.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("/css/fonts/gantzfont/@font-face/42f406b4b683ec8c5961bb6e6e198ec9.svg#Gantz font") format("svg"); /* iOS 4.1- */
+}
+
+@font-face {font-family: "Ninja Naruto V2";
+  src: url("fonts/NinjaNarutoV2/@font-face/6cb4254d224fa60f15c496c4720b5c9a.eot"); /* IE9*/
+  src: url("fonts/NinjaNarutoV2/@font-face/6cb4254d224fa60f15c496c4720b5c9a.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("fonts/NinjaNarutoV2/@font-face/6cb4254d224fa60f15c496c4720b5c9a.woff2") format("woff2"), /* chrome、firefox */
+  url("fonts/NinjaNarutoV2/@font-face/6cb4254d224fa60f15c496c4720b5c9a.woff") format("woff"), /* chrome、firefox */
+  url("fonts/NinjaNarutoV2/@font-face/6cb4254d224fa60f15c496c4720b5c9a.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("fonts/NinjaNarutoV2/@font-face/6cb4254d224fa60f15c496c4720b5c9a.svg#Ninja Naruto V2") format("svg"); /* iOS 4.1- */
+}
+
+@font-face {font-family: "Open24"; /* Open 24 Display St */
+    src: url("/css/fonts/Open24/@font-famille/9d65f4e610da59ad14754d800a3cc41b.eot"); /* IE9*/
+    src: url("/css/fonts/Open24/@font-famille/9d65f4e610da59ad14754d800a3cc41b.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("/css/fonts/Open24/@font-famille/9d65f4e610da59ad14754d800a3cc41b.woff2") format("woff2"), /* chrome、firefox */
+    url("/css/fonts/Open24/@font-famille/9d65f4e610da59ad14754d800a3cc41b.woff") format("woff"), /* chrome、firefox */
+    url("/css/fonts/Open24/@font-famille/9d65f4e610da59ad14754d800a3cc41b.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("/css/fonts/Open24/@font-famille/9d65f4e610da59ad14754d800a3cc41b.svg#Open 24 Display St") format("svg"); /* iOS 4.1- */
+}
+
+/* body{
+
+    background: url(PSO2-Assassin-Quna-60FPS-4K-Live-Wallpaper_2.gif) no-repeat fixed 50% 50%;
+    background-size: cover;
+    background-color: aqua;
+  
+} */
+
+body{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   /* padding: 30px 10%; */
+   position: relative;
+}
+
+nav {
+    /* border-bottom: 1px solid black; */
+    display: flex;
+    background-color: rgb(49, 47, 46, 0.6);
+    width: 100%;
+    height: 56px;
+    text-decoration: none;
+    backdrop-filter: blur(4px);
+}
+
+.colmenu{
+    list-style: none;
+    align-items: center;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    
+}
+
+.text-white{
+    color: white;
+    text-shadow: 1px 1px black;
+    text-align: center;
+    font-size: 1.5rem;
+    
+}
+.tw{
+    color: white;
+}
+
+.police-manga-gantz{
+    font-family: 'gantz font','Courier New', Courier, monospace;
+}
+
+.police-manga-naruto{
+    font-family: 'Ninja Naruto V2','Courier New', Courier, monospace;
+}
+
+.police-manga-dbz{
+    font-family: 'Saiyan Sans','Courier New', Courier, monospace;
+}
+
+.tc{
+    text-align: center;
+}
+
+.text-color-naruto{
+    background: -webkit-linear-gradient(	#fcba21, #f05321);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: thin red;
+}
+
+.vidbc{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav-div{
+    width: 100%;
+}
+.nav-element{
+    text-decoration: none;
+}
+.nav-container{
+    display: flex;
+    padding: 0px 20px;
+    justify-content: center;
+}
+label, #toggle{
+    display: none;
+
+}
+.nav-container li {
+    display: inline-block;
+    /* padding: 0px 20%; */
+    cursor: pointer;
+}
+.nav-container li a {
+    transition: all 0.3s ease 0s ;
+}
+
+ul {  
+  list-style-type: none;
+  margin: 12px;
+  padding: 0;
+  position: relative;
+}
+
+li {
+  display: inline;
+}
+.background{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: -webkit-fill-available;
+    width: -moz-available;
+    object-fit: cover;
+}
+p{
+    position: relative;
+}
+h1{
+    position: relative;
+}
+
+h2{
+    position: relative;
+}
+
+.container-400px{
+    background-color: rgba(46, 39, 39, 0.6);
+    height: auto;
+    position: relative;
+    padding: 20px 20px;
+    margin: 200px 68px;
+    border-radius: 6px ;
+    backdrop-filter: blur(4px);
+    
+}
+#date_heure
+{
+    color: white;
+    font-size: 2rem;
+    text-shadow: 1px 1px 1px black;
+    font-family: Open24, sans-serif;
+    /* margin-left: 28%; */
+}
+.p-y{
+    color: white;
+    font-size: 2rem;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .container-400px {
+      margin: 200px 12px;
+    }
+    .rowt{
+        justify-content: space-between;
+        justify-content: center;
+    }
+  }
+.ta-c{
+    text-align: center;
+}
+.t2rem{
+    font-size: 2rem;
+}
+.rowt{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.colt{
+    flex-direction: column;
+}
+
+
+@media screen and (max-width: 2280px) {
+
+    .colt{
+        margin-top: 10px;
+    }
+    
+}
+
+
+@media screen and (max-width: 768px) {
+    nav{
+        display: flex;
+        flex-direction: row-reverse;
+        height: auto;
+    }
+    .colt{
+        margin-top: 10px;
+    }
+    .nav-container {
+        display: none;
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        margin: 0;
+        margin-bottom: 30px;
+        white-space: pre-line;
+    }
+    label{
+        display: flex;
+        justify-content: end;
+        flex-direction: row-reverse;
+        /* align-items: end; */
+        cursor: pointer;
+        color: white;
+        font-size: 40px;
+        margin-left: 86%;
+        margin-right: 20px;
+    }
+    
+    #toggle:checked + .nav-container {
+        display: flex;
+    }
+    
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .rowt{
+        justify-content: center;
+    }
+    .colt{
+        margin-top: 10px;
+    }
+  }
+.article{
+    position: relative;
+    display: grid;
+    width: 250px;
+    height: auto;
+    color: white;
+    background-color: rgba(40, 162, 199, 0.7);
+}
+.img-article{
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    box-shadow: 0px 0px 0px 1px black;
+
+}
+
+
+
+.article h3{
+    text-align: center;
+}
+
+.mt-3{
+    margin-top: 3%;
+}
+.br-10px{
+    border-radius: 10px;
+}
+.colmenu img{
+    width: 2rem;
+    margin-right: 14px;
+}
+.container-footer{
+    height: 259px;
+    width: 100%;
+    background-color: rgb(46, 39, 39, 0.6);
+    color: white;
+    position: unset;
+    backdrop-filter: blur(4px);
+    bottom: 0;
+}
+.nav-div li:hover{
+    background-color: rgba(102, 11, 11, 0.6);
+
+}
+.a-info{
+    display: flex;
+    text-align: right;
+    text-decoration: none;
+    color: white;
+}
+.tcw{
+    color: white;
+}
+.bg-white{
+    background-color: white;
+}
+.btn{
+    width: 50%;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    text-align: center;
+    cursor: pointer;
+}
+.btn:hover{
+    border-radius: 6px;
+    border: 1px solid transparent ;
+    border-image: linear-gradient(rgb(216 216 37), red);
+    border-image-slice: 1;
+    background: none;
+}
+.btn-blue{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px black;
+
+
+}
+.btn-yr{
+    background: radial-gradient(rgb(216 216 37), red);
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 0px black;
+}
+.ml-25pc{
+    margin-left: 25%;
+}
+#devSwitchProdDev{
+    text-decoration: none;
+    color: white;
+}
